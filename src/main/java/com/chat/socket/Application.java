@@ -14,7 +14,7 @@ public class Application {
 
     //controlador simple
     @GetMapping("/api/messages")
-    public String messagesControler(){
+    public String messagesController(){
         return "<h3>my first message</h3>";
     }
 }
