@@ -13,6 +13,7 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
+    //controlador simple
     @GetMapping("/api/messages")
     public String nessagesControler(){
         return "<h3>my first message</h3>";
